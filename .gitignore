@@ -4,3 +4,4 @@ bundle.min.js
 bundle.min.prod.js
 npm-debug.log
 .DS_Store
+/staticContent
