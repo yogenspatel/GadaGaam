@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Helmet } from 'react-helmet';
+import Announcements from './announcements';
+import ExAnnouncements from './ex-announce';
 
 export default class NivasiUSA extends Component {
 	render() {
@@ -8,6 +10,8 @@ export default class NivasiUSA extends Component {
 				<Helmet>
 					<title>Gada Nivasi in USA | Gada Gaam</title>
 				</Helmet>
+				<Announcements />
+				<ExAnnouncements />
 				<table className="table table-striped">
 					<thead>
 						<tr>

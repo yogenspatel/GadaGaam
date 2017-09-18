@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Announcements from './announcements';
 import { Helmet } from 'react-helmet';
+import ExAnnouncements from './ex-announce';
 
 export default class SPAnnouncements extends Component {
 	render() {
@@ -10,10 +11,13 @@ export default class SPAnnouncements extends Component {
 					<title>Special Announcements | Gada Gaam</title>
 				</Helmet>
 				<Announcements />
+				<ExAnnouncements />
 				<p>
 					Gada Clinic account Fixed deposit: We are excited to announce that we deposited $1000 as a fixed deposit in Gada Clinic Account. Thank you all for contributing this amount. (Out of $1000, $720 is contributed by people who joined Gada Picnic 2015 and $280 by Vrajeshbhai Jayant)
 				</p>
-				<a target="_blank" href="http://gadagaam.org/wp-content/uploads/2012/02/gada-nirmalaben-trust.pdf">gada nirmalaben trust</a>
+				<hr />
+				<h4 className="h4"><a target="_blank" href="/staticContent/pdf/gada-nirmalaben-trust.pdf">Gada Nirmalaben Trust</a></h4>
+				<hr />
 			</div>
 		);
 	}

@@ -1,3 +1,10 @@
 RewriteEngine on
 RewriteCond %{REQUEST_URI} !^/$
 RewriteRule .*\.(php|html)$ / [L,R=302]
+
+<IfModule mod_headers.c>
+# WEEK
+<FilesMatch "\.(jpg|jpeg|png|gif|swf|css)$">
+    Header set Cache-Control "max-age=604800, public"
+</FilesMatch>
+</IfModule>
