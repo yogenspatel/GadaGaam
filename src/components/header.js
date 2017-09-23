@@ -13,6 +13,7 @@ export default class Header extends Component {
 			    <Link className="navbar-brand" to="/">Gada Gaam</Link>
 			    <div className="collapse navbar-collapse" id="navbarNavDropdown">
 			      <ul className="navbar-nav">
+			        <li className="nav-item"><Link to="/highschool/renovation/donors" className="nav-link">High School Renovation</Link></li>
 			        <li className="nav-item"><Link to="/phone-dir" className="nav-link">Phone Directory</Link></li>
 			        <li className="nav-item"><Link to="/news" className="nav-link">News</Link></li>
 			        <li className="nav-item dropdown">

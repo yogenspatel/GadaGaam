@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet';
 import ImageGallery from 'react-image-gallery';
 import { Link } from 'react-router-dom';
 
-export default class Home extends Component {
+export default class HighSchoolRenovation extends Component {
 	render() {
 		const gadaSchoolImages = [{
 			original: '/staticContent/img/gada_school_2017/IMG-20170912-WA0024.jpg'
@@ -114,42 +114,72 @@ export default class Home extends Component {
 			original: '/staticContent/img/gada_school_2017/IMG-20170912-WA0026.jpg'
 			,thumbnail: '/staticContent/img/gada_school_2017/thumbs/IMG-20170912-WA0026_tn.jpg'
 		}];
-		
-		const VireshwarMandirImages = [
-		{
-			original: '/staticContent/img/vireshwar_mandir/1.jpg',
-			thumbnail: '/staticContent/img/vireshwar_mandir/thumbs/1_tn.jpg'
-		},
-		{
-			original: '/staticContent/img/vireshwar_mandir/2.jpg',
-			thumbnail: '/staticContent/img/vireshwar_mandir/thumbs/2_tn.jpg'
-		},
-		{
-			original: '/staticContent/img/vireshwar_mandir/3.jpg',
-			thumbnail: '/staticContent/img/vireshwar_mandir/thumbs/3_tn.jpg'
-		},
-		{
-			original: '/staticContent/img/vireshwar_mandir/4.jpg',
-			thumbnail: '/staticContent/img/vireshwar_mandir/thumbs/4_tn.jpg'
-		},
-		{
-			original: '/staticContent/img/vireshwar_mandir/5.jpg',
-			thumbnail: '/staticContent/img/vireshwar_mandir/thumbs/5_tn.jpg'
-		}];
 
 		return(
-			<div className="home content">
+			<div className="renovation content">
 				<Helmet>
-					<title>Home | Gada Gaam</title>
+					<title>Gada High School Renovation Fund | Gada Gaam</title>
 				</Helmet>
-				<Announcements />
-				<strong className="h3">About J M. Patel high-school, Gada</strong>
-				<blockquote className="blockquote">
-				Please take a moment and look these all pictures below. 
-		        This is the condition of our school in Gada. It's very very poor conditions.
-		        As we know what a great facility have provided in our kids in here USA, from this we don't have even have 5% facility in our Born land Gada. 
-		        We know that it's painful for all of you, please come forward and let's help our school our kids, our brothers, our Mother Land.
-		        </blockquote>
+				<strong className="h3">Gada High School Renovation Fund Donors</strong>
+				<table className="table table-striped">
+					<thead>
+					<tr>
+						<th>Name</th>
+						<th>Amount</th>
+					</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>
+								<h4>Jayshreeben Narendrabhai R. Patel</h4>
+								<p className="card-text">Daughter of Kanubhai Motibhai Patel(Mastar)</p>
+							</td>
+							<td>$500</td>
+						</tr>
+						<tr>
+							<td>
+								<h4>Varshaben Subhash J. Patel</h4>
+								<p className="card-text">Daughter of Fulabhai Motibhai Patel</p>
+							</td>
+							<td>$500</td>
+						</tr>
+						<tr>
+							<td>
+								<h4>Vikas Navinchandra Kantibhai Patel</h4>
+							</td>
+							<td>$500</td>
+						</tr>
+						<tr>
+							<td>
+								<h4>Umeshbhai Vitthalbhai Patel</h4>
+							</td>
+							<td>$1000</td>
+						</tr>
+						<tr>
+							<td>
+								<h4>Dr. Chirad & Dr. Punal</h4>
+								<p className="card-text">Son of Bharatbhai & Pritiben (Manibhai Ishvarbhai)</p>
+							</td>
+							<td>$1001</td>
+						</tr>
+						<tr>
+							<td>
+								<h4>Pradipbhai & Dharmishta (Vitthalbhai Nathabhai)</h4>
+								<p className="card-text">Banglawari Khadki</p>
+							</td>
+							<td>$500</td>
+						</tr>
+						<tr>
+							<td>
+								<h4>Total</h4>
+							</td>
+							<td>$4001</td>
+						</tr>
+					</tbody>
+				</table>
+				<hr />
+
+				<strong className="h3">J M. Patel high-school, Gada</strong>
 				<ImageGallery
 		        items={gadaSchoolImages}
 		        slideInterval={2000} />
@@ -187,17 +217,7 @@ export default class Home extends Component {
 We all people are responsible for this all important organization, we have registered in IRS non profit organization Gada gaam samaj USA ( Handling from USA).
 Please <strong><Link to="/contact">contact US</Link></strong> if you any questions/concerns.
 
-<h3>Here are the <Link to="/highschool/renovation/donors">Donors List</Link></h3>
 <hr />
-
-				<h3>Vireshwar Mandir, Gada</h3>
-				<ImageGallery
-		        items={VireshwarMandirImages}
-		        slideInterval={2000} />
-
-		        <hr />
-		        <iframe src="/staticContent/pdf/independent_india.pdf" width="100%" height="2100px" />
-
 			</div>
 		);
 	}
