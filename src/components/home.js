@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import Announcements from './announcements';
-import { Helmet } from 'react-helmet';
 import ImageGallery from 'react-image-gallery';
 import { Link } from 'react-router-dom';
 
@@ -139,9 +138,6 @@ export default class Home extends Component {
 
 		return(
 			<div className="home content">
-				<Helmet>
-					<title>Home | Gada Gaam</title>
-				</Helmet>
 				<Announcements />
 				<strong className="h3">About J M. Patel high-school, Gada</strong>
 				<blockquote className="blockquote">

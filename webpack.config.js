@@ -8,7 +8,7 @@ module.exports = {
   output: {
     path: __dirname,
     publicPath: '/',
-    filename: PROD ? 'bundle.min.js' : 'bundle.js'
+    filename: PROD ? 'bundle.min.prod.js' : 'bundle.js'
   },
   plugins: PROD ? [
     new webpack.DefinePlugin({

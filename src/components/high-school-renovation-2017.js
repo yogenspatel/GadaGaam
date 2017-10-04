@@ -157,7 +157,7 @@ export default class HighSchoolRenovation extends Component {
 						</tr>
 						<tr>
 							<td>
-								<h4>Dr. Chirad & Dr. Punal</h4>
+								<h4>Dr. Chirag & Dr. Punal</h4>
 								<p className="card-text">Son of Bharatbhai & Pritiben (Manibhai Ishvarbhai)</p>
 							</td>
 							<td>$1001</td>
@@ -171,9 +171,30 @@ export default class HighSchoolRenovation extends Component {
 						</tr>
 						<tr>
 							<td>
+								<h4>Kanubhai Manibhai Vaghjibhai</h4>
+							</td>
+							<td>$251</td>
+						</tr>
+						<tr>
+							<td>
+								<h4>Anitaben daughter of Hasmukhbhai Fulabhai Patel</h4>
+								Binaben daughter of Ambalal Isvarbhai Patel
+								Chayaben daughter of Ganshyambhai Kuberbhai Patel
+								Latikaben daughter of Chandubhai Maganbhai Patel
+							</td>
+							<td>$500</td>
+						</tr>
+						<tr>
+							<td>
+								<h4>Hemantbhai & Pannaben (Florida, USA)</h4>
+							</td>
+							<td>$1001</td>
+						</tr>
+						<tr>
+							<td>
 								<h4>Total</h4>
 							</td>
-							<td>$4001</td>
+							<td>$5753</td>
 						</tr>
 					</tbody>
 				</table>
