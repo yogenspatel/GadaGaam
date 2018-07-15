@@ -192,9 +192,23 @@ export default class HighSchoolRenovation extends Component {
 						</tr>
 						<tr>
 							<td>
+								<h4>Mehulkumar Rameshbhai Dhurabhai</h4>
+							</td>
+							<td>$500</td>
+						</tr>
+						<tr>
+							<td>
+								<h4>Sangitaben Amrish Patel</h4>
+								<p className="card-text">Daughter of Chandubhai Maganbhai , Banglawari khadki</p>
+							</td>
+							<td>$1000</td>
+						</tr>
+
+						<tr>
+							<td>
 								<h4>Total</h4>
 							</td>
-							<td>$5753</td>
+							<td>$7253</td>
 						</tr>
 					</tbody>
 				</table>

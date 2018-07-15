@@ -12,13 +12,6 @@ export default class ExAnnouncements extends Component {
 				</h3>
 				</blockquote>
 				<hr />
-				<strong className="h3">Picnic 2018</strong>
-				<blockquote className="blockquote">
-				<h3 className="headline-2">
-				If anyone would like to sponsor next year picnic, Please <Link to="/contact">contact us</Link>.
-				</h3>
-				</blockquote>
-				<hr />
 			</div>
 		);
 	}

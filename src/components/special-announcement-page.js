@@ -16,7 +16,8 @@ export default class SPAnnouncements extends Component {
 					Gada Clinic account Fixed deposit: We are excited to announce that we deposited $1000 as a fixed deposit in Gada Clinic Account. Thank you all for contributing this amount. (Out of $1000, $720 is contributed by people who joined Gada Picnic 2015 and $280 by Vrajeshbhai Jayant)
 				</p>
 				<hr />
-				<h4 className="h4"><a target="_blank" href="/staticContent/pdf/gada-nirmalaben-trust.pdf">Gada Nirmalaben Trust</a></h4>
+
+				<iframe src="/staticContent/pdf/gada-nirmalaben-trust.pdf" width="100%" height="3000px" />
 				<hr />
 			</div>
 		);

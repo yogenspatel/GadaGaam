@@ -192,6 +192,9 @@ Please <strong><Link to="/contact">contact US</Link></strong> if you any questio
 		        slideInterval={2000} />
 
 		        <hr />
+		        <iframe src="/staticContent/pdf/Gada_Vireshvar_Mahadev_Renovation_2017.pdf" width="100%" height="3000px" />
+
+		        <hr />
 		        <iframe src="/staticContent/pdf/independent_india.pdf" width="100%" height="2100px" />
 
 			</div>

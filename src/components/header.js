@@ -13,8 +13,7 @@ export default class Header extends Component {
 			    <Link className="navbar-brand" to="/">Gada Gaam</Link>
 			    <div className="collapse navbar-collapse" id="navbarNavDropdown">
 			      <ul className="navbar-nav">
-			        <li className="nav-item"><Link to="/highschool/renovation/donors" className="nav-link">High School Renovation</Link></li>
-			        <li className="nav-item"><Link to="/phone-dir" className="nav-link">Phone Directory</Link></li>
+					<li className="nav-item"><Link to="/phone-dir" className="nav-link">Phone Directory</Link></li>
 			        <li className="nav-item"><Link to="/news" className="nav-link">News</Link></li>
 			        <li className="nav-item dropdown">
 			          <Link className="nav-link dropdown-toggle" to="/nivasi/usa" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nivasi</Link>
@@ -28,6 +27,7 @@ export default class Header extends Component {
 			        <li className="nav-item dropdown">
 			          <Link className="nav-link dropdown-toggle" to="/picnic/2017" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Annual Program</Link>
 			          <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+			            <Link to="/diwali/2017" className="dropdown-item">Diwali 2017</Link>
 			            <Link to="/picnic/2017" className="dropdown-item">Picnic 2017</Link>
 			            <Link to="/picnic/2016" className="dropdown-item">Picnic 2016</Link>
 			            <Link to="/picnic/2015" className="dropdown-item">Picnic 2015</Link>
@@ -44,6 +44,7 @@ export default class Header extends Component {
 			        <li className="nav-item dropdown">
 			          <Link className="nav-link dropdown-toggle" to="/sisters/daughters/usa" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More...</Link>
 			          <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+			          	<Link to="/highschool/renovation/donors" className="dropdown-item">High School Renovation</Link>
 			            <Link to="/sisters/daughters/usa" className="dropdown-item">Sisters & Daughters in USA</Link>
 			            <Link to="/death/note" className="dropdown-item">Death Note</Link>
 			            <Link to="/special/announcements" className="dropdown-item">Special Announcements</Link>

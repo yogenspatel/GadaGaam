@@ -22,6 +22,7 @@ import picnic2010 from './components/picnic/2010';
 import victoriaFalls from './components/picnic/victoria-falls';
 import deathNote from './components/death-note';
 import HighSchoolRenovation from './components/high-school-renovation-2017';
+import Diwali2017 from './components/picnic/diwali_2017';
 
 import history from './utilities/history';
 
@@ -52,6 +53,7 @@ export default (
 			<Route path="/victoria/falls/zimbabwe" component={victoriaFalls} />
 			<Route path="/death/note" component={deathNote} />
 			<Route path="/highschool/renovation/donors" component={HighSchoolRenovation} />
+			<Route path="/diwali/2017" component={Diwali2017} />
 			<Footer />
 		</div>
 	</Router>
