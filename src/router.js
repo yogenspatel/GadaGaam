@@ -11,6 +11,7 @@ import ContactUs from './components/contact-us';
 import SisDaughtersUSA from './components/sis-daughters-usa';
 import SPAnnouncements from './components/special-announcement-page'
 import photoGallery from './components/photo-gallery';
+import picnic2018 from './components/picnic/2018';
 import picnic2017 from './components/picnic/2017';
 import picnic2016 from './components/picnic/2016';
 import picnic2015 from './components/picnic/2015';
@@ -42,6 +43,7 @@ export default (
 			<Route path="/sisters/daughters/usa" component={SisDaughtersUSA} />
 			<Route path="/special/announcements" component={SPAnnouncements} />
 			<Route path="/photo/gallery" component={photoGallery} />
+			<Route path="/picnic/2018" component={picnic2018} />
 			<Route path="/picnic/2017" component={picnic2017} />
 			<Route path="/picnic/2016" component={picnic2016} />
 			<Route path="/picnic/2015" component={picnic2015} />

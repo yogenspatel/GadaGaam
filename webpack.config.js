@@ -1,5 +1,5 @@
 var webpack = require('webpack');
-var PROD = false;
+var PROD = true;
 
 module.exports = {
   entry: [

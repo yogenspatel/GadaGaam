@@ -430,3 +430,6 @@ body > .container {
     .image-gallery-index {
       font-size: .8em;
       padding: 5px 10px; } }
+.picnic.content .card-img-top .card img {
+  width: 100%;
+}
